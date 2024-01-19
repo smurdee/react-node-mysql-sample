@@ -1,4 +1,4 @@
-.App{
+.App {
     height: 100vh;
     padding: 0px 100px;
     display: flex;
@@ -7,12 +7,12 @@
     text-align: center;
 }
 
-.books{
+.books {
     display: flex;
     gap: 10px;
 }
 
-.book{
+.book {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -20,14 +20,14 @@
     align-items: center;
 }
 
-img{
+img {
     width: 200px;
     height: 300px;
     object-fit: cover;
-    background-color:blanchedalmond;
+    background-color: blanchedalmond;
 }
 
-.delete{
+.delete {
     background-color: red;
     color: white;
     border: none;
@@ -36,7 +36,7 @@ img{
     cursor: pointer;
 }
 
-.update{
+.update {
     background-color: green;
     color: white;
     border: none;
@@ -45,19 +45,19 @@ img{
     cursor: pointer;
 }
 
-.form{
+.form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-input{
+input {
     width: 250px;
     padding: 10px;
     border-radius: 1px solid gray;
 }
 
-.formButton{
+.formButton {
     border: none;
     padding: 10px;
     background-color: green;
